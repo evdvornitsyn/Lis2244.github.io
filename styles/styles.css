@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(../fonts/PTSans-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url(../fonts/gothampro_black.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Gotham Pro Regular";
+    src: url(../fonts/gothampro.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 16px;
+    Letter-spacing: 1px;
+    background-image: url(/images/mushrooms.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    position: -webkit-sticky;
+    height: 50px;
+    top: 0;
+}
+.navigation_list {
+    list-style: none;
+    display: flex;
+    height: 75px;
+}
+.navigation_item {
+    margin-left: 29px;
+}
+.item_block {
+    border: 3px solid #000000;
+    border-radius: 50px;
+    padding: 12px 30px;
+    background-color: #04C65D;
+}
+.block_appeal {
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    padding-top: 15px;
+    text-align: center;
+}
+.link_appeal {
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.link_board {
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    margin-top: 5px;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+}
+.logo {
+    margin: 100px;
+    height: 100%;
+    text-align: center;
+}
+.visabillity_hiden {
+    visibility: hidden;
+}
+.display_none {
+    display: none;
+}
+.logo_img {
+    width: 40%;
+    height: 40%;
+}
+.basement {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.basement_text {
+    font-size: 16px;
+    width: 45%;
+}
+.text {
+    font-family: "Gotham Pro Regular", sans-serif;
+    color: #000000;
+}
+.basement_list {
+    list-style: none;
+    display: flex;
+    justify-content: baseline;
+    width: 15%;
+    
+}
+.basement_link {
+    margin-right: 15px;
+}
+.telegramm_img {
+    width: 60px;
+    height: 60px;
+}
+.vk_img {
+    width: 60px;
+    height: 60px;
+}
+.information_block {
+    margin-top: 220px;
+    text-align: center;
+}
+h2 {
+    font-size: 46px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 3px #000000;
+}
+.block_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.info_text {
+    border: 4px solid #000000;
+    border-radius: 20px;
+    background-color: #04C65D;
+    width: 35%;
+    margin: 0;
+}
+.info_list {
+    margin-top: 20%;
+}
+.info_item {
+    margin-top: 17%;
+    font-size: 24px;
+    list-style-type: none;
+    margin-right: 10%;
+    text-decoration: underline;
+}
+.map {
+    border: 4px solid #000000;
+    margin: 0;
+}
+.board_heading {
+    margin-top: 100px;
+    text-align: center;
+}
+.board {
+    text-align: center;
+}
+.board_img {
+    width: 1000px;
+}
+.contacts {
+    text-align: center;
+}
+.contacts_heading {
+    margin-top: 150px;
+}
+.block_contacts {
+    background-color: #04C65D;
+    border: 4px solid #000000;
+    border-radius: 22px;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacts_list {
+    list-style-type: none;
+}
+.contacts_data {
+    font-size: 26px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+}
+.contacts_item {
+    margin: 20px;
+}
+
+.data_email {
+    list-style: none;
+    font-size: 24px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+} 
+.tel {
+    list-style: none;
+    font-size: 24px;
+    color: #FFFFFF;
+    -webkit-text-stroke: 1px #000000;
+}
+.appeal {
+    text-align: center;
+}
+.appeal_heading {
+    margin-top: 130px;
+}
+
