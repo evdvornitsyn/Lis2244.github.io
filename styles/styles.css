@@ -27,10 +27,6 @@ body {
     background-image: url(/images/mushrooms.png);
     background-size: cover;
     background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-content: center;
 
 }
 .navigation {
