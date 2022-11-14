@@ -121,6 +121,7 @@ a {
 @media (max-width: 600px) {
     .page {
         min-width: 320px;
+        max-width: 100%;
     }
     .evgen_img {
         grid-column: 3/4;
