@@ -119,6 +119,9 @@ a {
     padding: 0;
 }
 @media (max-width: 600px) {
+    .page {
+        min-width: 320px;
+    }
     .evgen_img {
         grid-column: 3/4;
         grid-row: 1/2;
