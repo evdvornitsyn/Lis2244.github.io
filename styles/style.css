@@ -17,6 +17,9 @@
     font-style: normal;
 }
 @media (min-width: 380px) {
+    .page {
+        width: auto;
+    }
     .evgen_img {
         grid-column: 2/4;
         grid-row: 1/2;
