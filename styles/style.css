@@ -96,7 +96,6 @@ body {
     grid-column: 1/4;
     grid-row: 1/2;
     max-width: 1440px;
-    min-height: 270px;
 }
 .block_city_logo {
     grid-column: 1/3;
