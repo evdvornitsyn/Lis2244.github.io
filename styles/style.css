@@ -18,7 +18,7 @@
 }
 .page {
     background-color: #2F3232;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .page_block {
@@ -138,7 +138,7 @@ a {
 @media (max-width: 600px) {
     .page_bloc {
         min-width: 320px;
-        max-width: 380px;
+        max-width: auto;
         margin: 0 auto;
     }
     .evgen_img {
