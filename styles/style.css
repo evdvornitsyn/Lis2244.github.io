@@ -32,6 +32,7 @@
     padding: 0;
 }
 .navigation {
+    color: #FFFFFF;
     grid-column: 1/6;
     grid-row: 1/2;
     display: flex;
@@ -60,6 +61,7 @@
     min-width: 500px;
 }
 .navigation_list {
+    font-family: "Gotham Pro Regular", sans-serif;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -137,8 +139,7 @@ a {
 }
 @media (max-width: 600px) {
     .page_bloc {
-        min-width: 320px;
-        max-width: auto;
+        width: auto;
         margin: 0 auto;
     }
     .evgen_img {
@@ -150,5 +151,8 @@ a {
         flex-direction: column;
         justify-content: space-between;
         align-content: center;
+    }
+    .city_logo_text {
+        margin: 0 20px;
     }
 }
