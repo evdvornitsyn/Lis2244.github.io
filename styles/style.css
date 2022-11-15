@@ -130,12 +130,11 @@ a {
     padding: 0;
 }
 @media (max-width: 600px) {
-    .page {
+    .page_bloc {
         min-width: 320px;
-        max-width: 100%;
     }
     .evgen_img {
-        grid-column: 3/4;
+        grid-column: 2/4;
         grid-row: 1/2;
         max-height: 238px;
     }
