@@ -41,6 +41,7 @@ header {
     margin: 0;
     padding: 0;
     color: #DAA520;
+    filter: saturate(130%);
     min-width: 320px;
     max-width: auto;
     min-height: 100%;
@@ -136,6 +137,7 @@ a {
     grid-column: 1/6;
     grid-row: 4/7;
     text-align: center;
+    color: #FFFFFF;
 }
 .city_logo_text {
     color: #000000;
@@ -144,6 +146,89 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0;
+}
+.grid_info {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content auto;
+}
+.information_heading {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: #DAA520;
+    filter: saturate(130%);
+}
+.box_block {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.box_grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.box {
+    text-align: center;
+}
+.border_box_one {
+    border: 4px solid #000000;
+    border-radius: 22px;
+    margin: 20px auto;
+    padding: 0;
+    width: 70%;
+    background-color: #63F171;
+    filter: saturate(120%);
+}
+.border_box_two {
+    border: 4px solid #000000;
+    border-radius: 22px;
+    margin: 20px auto;
+    padding: 0;
+    width: 70%;
+    background-color: #F9FC5D;
+    filter: saturate(100%);
+}
+.border_box_free {
+    border: 4px solid #000000;
+    border-radius: 22px;
+    margin: 20px auto;
+    padding: 0;
+    width: 70%;
+    background-color: #FF8787;
+    filter: saturate(120%);
+}
+.oclock_text {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.many_text {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.serdce_text {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.box_text {
+    font-family: "Gotham Pro Regular", sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 15%;
+}
+.oclock_img {
+    min-width: 40%;
+}
+.many_img {
+    min-width: 9%;
+}
+.serdce_img {
+    min-width: 40%; 
 }
 @media (max-width: 600px) {
     .page {
@@ -159,6 +244,7 @@ a {
         grid-column: 3/4;
         grid-row: 1/2;
         max-height: 120px;
+        visibility: hidden;
     }
     header {
         display: flex;
@@ -185,5 +271,11 @@ a {
     }
     .name_text {
         font-size: 22px;
+    }
+    .box_grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
