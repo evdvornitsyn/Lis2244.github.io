@@ -83,14 +83,16 @@ a {
 .logo_block {
     grid-column: 1/6;
     grid-row: 2/4;
-    margin: 0;
-    padding: 0;
-
-}
-.logo_block_item {
     display: grid;
     grid-template-columns: 40% 25% 35%;
-    grid-template-rows: 60% min-content;
+    grid-template-rows: 60% auto;
+    margin: 0;
+    padding: 0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 40% 25% 35%;
+    grid-template-rows: min-content min-content;
     margin: 0;
     padding: 0;
 }
@@ -98,24 +100,29 @@ a {
     grid-column: 1/4;
     grid-row: 1/2;
     width: 100%;
-    min-height: 238px;
+    min-height: 100%;
+    position: relative;
 
 }
 .block_city_logo {
     grid-column: 1/4;
     grid-row: 2/3;
-    min-width: 100%;
+    min-width: auto;
+    min-height: 120px;
     background-color: #E8EAEA;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 .evgen_img {
     grid-column: 3/4;
     grid-row: 1/3;
     max-width: 100%;
     min-height: 238px;
+    max-height: 100%;
     margin-left: 5%;
     padding: 0;
+    position: relative;
     
 }
 .information_block {
@@ -131,7 +138,7 @@ a {
 }
 @media (max-width: 600px) {
     .page_bloc {
-        min-width: 320px;
+        min-width: 100%;
     }
     .evgen_img {
         grid-column: 2/4;
