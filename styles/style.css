@@ -278,4 +278,7 @@ a {
         justify-content: center;
         align-items: center;
     }
+    .information_heading {
+        font-size: 18px;
+    }
 }
