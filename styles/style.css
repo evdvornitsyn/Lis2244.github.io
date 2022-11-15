@@ -32,7 +32,7 @@
     padding: 0;
 }
 .navigation {
-    color: #FFFFFF;
+    color: #DAA520;
     grid-column: 1/6;
     grid-row: 1/2;
     display: flex;
@@ -47,13 +47,17 @@
 .name {
     text-align: center;
     margin-left: 5%;
+    padding: 0;
 }
 .name_text {
     font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .name_text_two {
     font-family: "Gotham Pro Regular";
     font-size: 16px;
+    margin-top: 10px;
 }
 .navigation_block {
     margin: 0;
@@ -138,6 +142,10 @@ a {
     padding: 0;
 }
 @media (max-width: 600px) {
+    .page {
+        min-width: 320px;
+        max-width: auto;
+    }
     .page_bloc {
         width: auto;
         margin: 0 auto;
