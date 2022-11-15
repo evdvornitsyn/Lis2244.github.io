@@ -21,30 +21,29 @@
     margin: 0;
     padding: 0;
     min-width: 100%;
+    max-width: 1440px;
 }
 .page_block {
-    min-width: auto;
-    max-width: 100%;
     font-family: "Gotham Pro", sans-serif;
     font-size: 16px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: min-content auto auto 20% 20% 20% 20% 20%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
-.navigation {
-    color: #DAA520;
+header {
     grid-column: 1/6;
     grid-row: 1/2;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin: 0;
     padding: 0;
-
+    color: #DAA520;
+    min-width: 320px;
+    max-width: auto;
+    min-height: 100%;
 }
 .name {
     text-align: center;
@@ -63,13 +62,13 @@
 }
 .navigation_block {
     margin: 0;
-    padding: 0;
-    min-width: 100%;
+    padding: 10px;
+    width: 30%; 
 }
 .navigation_list {
     font-family: "Gotham Pro Regular", sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
     min-width: 100%;
@@ -78,10 +77,12 @@
 a {
     color: #FFFFFF;
 }
+.watsap_block {
+    margin-right: 5%;
+}
 .watsap_img {
     max-width: 82px;
     max-height: 46px;
-    margin: auto;
     filter: brightness(300%);
 }
 .navigation_item {
@@ -131,9 +132,9 @@ a {
     
 }
 .information_block {
-    margin-top: 5%;
+    margin-top: 5px;
     grid-column: 1/6;
-    grid-row: 5/7;
+    grid-row: 4/7;
     text-align: center;
 }
 .city_logo_text {
@@ -159,14 +160,30 @@ a {
         grid-row: 1/2;
         max-height: 120px;
     }
-    .navigation {
+    header {
+        display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-content: center;
+    }
+    .navigation_block {
+        font-size: 14px;
+        min-width: 90%;
+        margin-bottom: 20px;
+    }
+    .navigation_list {
+        flex-wrap: wrap;
+        margin: 0 auto;
     }
     .city_logo_text {
         font-family: "PT Sans", sans-serif;
         margin: 20px 20px;
         text-align: center;
+    }
+    .watsap_block {
+        display: none;
+    }
+    .name_text {
+        font-size: 22px;
     }
 }
