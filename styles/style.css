@@ -99,14 +99,14 @@ a {
     display: grid;
     grid-template-columns: 40% 25% 35%;
     grid-template-rows: 50% min-content;
-    margin-bottom: 20px;
+    margin: 0;
     padding: 0;
     position: relative;
 }
 .kras_img {
     grid-column: 1/4;
     grid-row: 1/2;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
@@ -237,7 +237,17 @@ a {
 .serdce_img {
     min-width: 40%; 
 }
-@media (max-width: 650px) {
+.contacts {
+    grid-column: 1/6;
+    grid-row: 8/9;
+
+}
+@media (max-width: 950px) {
+    .grid_info {
+        margin-top: 5%;
+    }
+}
+@media (max-width: 700px) {
     .page {
         min-width: 320px;
         max-width: 100%;
@@ -287,5 +297,8 @@ a {
     }
     .information_heading {
         font-size: 18px;
+    }
+    .grid_info {
+        margin-top: 2%;
     }
 }
