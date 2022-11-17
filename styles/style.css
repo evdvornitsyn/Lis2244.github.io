@@ -282,6 +282,10 @@ a {
     }
     .foto_mobile_evgen {
         width: 50%;
+        border: 5px solid #DAA520;
+        border-radius: 50%;
+        margin: 0;
+        padding: 0;
     }
     .name {
         order: -1;
