@@ -21,14 +21,13 @@
     margin: 0;
     padding: 0;
     min-width: 100%;
-    max-width: 1440px;
 }
 .page_block {
     font-family: "Gotham Pro", sans-serif;
     font-size: 16px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: min-content auto 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: min-content 20% 20% 20% 20% 20% 20% 20%;
     margin: 0 auto;
     padding: 0;
 }
@@ -117,7 +116,6 @@ a {
     grid-row: 2/3;
     min-width: auto;
     min-height: auto;
-    max-height: auto;
     background-color: #E8EAEA;
     margin: 0;
     padding: 0;
@@ -244,21 +242,31 @@ a {
 }
 @media (max-width: 950px) {
     .grid_info {
-        margin-top: 5%;
+        margin-top: 0;
     }
 }
 @media (max-width: 700px) {
     .page {
         min-width: 320px;
-        max-width: 100%;
+        max-width: 400px;
         margin: 0;
     }
     .page_bloc {
-        width: auto;
+        width: 100%;
         margin: 0 auto;
     }
+    .logo_block {
+        grid-column: 1/6;
+        grid-row: 2/3;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: min-content min-content;
+    }
     .kras_img {
-        min-height: auto;
+        min-height: 150px;
+        max-height: 100%;
     }
     .evgen_img {
         display: none;
@@ -294,6 +302,10 @@ a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .information_block {
+        grid-column: 1/6;
+        grid-row: 3/6;
     }
     .information_heading {
         font-size: 18px;
