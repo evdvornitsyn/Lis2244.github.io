@@ -253,6 +253,16 @@ a {
         margin-top: 0;
     }
 }
+@media (max-width: 800px) {
+    .grid_info {
+        margin-top: 10%;
+    }
+}
+@media (max-width: 800px) {
+    .grid_info {
+        margin-top: 17%;
+    }
+}
 @media (max-width: 500px) {
     .page {
         min-width: 300px;
