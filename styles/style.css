@@ -353,19 +353,7 @@ a {
         margin-top: 0;
     }
 }
-@media (max-width: 800px) {
-    .grid_info {
-        margin-top: 0;
-    }
-    .info_me {
-        margin-top: 0;
-    }
-}
-@media (max-width: 600px) {
-    .grid_info {
-        margin-top: 0;
-    }
-}
+
 @media (max-width: 500px) {
     .page {
         min-width: 300px;
@@ -373,7 +361,7 @@ a {
         margin: 0;
     }
     .page_bloc {
-        grid-template-rows: min-content auto 20% 20% 20% 20% min-content 20%;;
+        /*grid-template-rows: min-content auto 20% 20% 20% 20% min-content 20%;*/
         width: 100%;
         margin: 0 auto;
     }
@@ -384,7 +372,7 @@ a {
         padding: 5%;
     }
     .foto_mobile_evgen {
-        width: 50%;
+        width: 40%;
         border: 5px solid #DAA520;
         border-radius: 50%;
         margin: 0;
@@ -392,21 +380,6 @@ a {
     }
     .name {
         order: -1;
-    }
-    .logo_block {
-        grid-column: 1/6;
-        grid-row: 2/3;
-    }
-    .grid {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 70% min-content;
-        margin: 0;
-    }
-    .kras_img {
-        width: 100%;
-        height: 100%;
-
     }
     .evgen_img {
         display: none;
@@ -416,6 +389,7 @@ a {
         flex-direction: column;
         justify-content: space-between;
         align-content: center;
+        min-width: 100%;
     }
     .navigation_block {
         font-size: 16px;
@@ -451,13 +425,9 @@ a {
         align-items: center;
         height: min-content;
     }
-    .information_block {
-        grid-column: 1/6;
-        grid-row: 3/6;
-    }
     .information_heading {
         font-size: 18px;
-        margin: 0 2%;
+        margin: 4% 4% 0 4%;
     }
     .grid_info {
         margin: 0;
@@ -469,5 +439,11 @@ a {
     }
     .job {
         margin: 0;
+    }
+    .whatsapp_button {
+        min-width: 90%;
+    }
+    .contacts_list {
+        min-width: 100%;
     }
 }
