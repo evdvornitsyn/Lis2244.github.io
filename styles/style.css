@@ -86,13 +86,36 @@ a {
     color: #FFFFFF;
     text-decoration: none;
 }
+.dop_span {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin: 2%;
+}
+.link_text {
+    color: #DAA520;
+    filter: saturate(130%);
+    text-decoration: underline;
+}
 .watsap_block {
+    font-family: "PT Sans", sans-serif;
+    font-size: 22px;
+    background-color: #43d854;
+    border: 3px solid #109754;
+    border-radius: 12px;
+    padding: 0;
+    width: 18%;
     margin-right: 5%;
+    padding: 0;
+    text-align: center;
 }
 .watsap_img {
+    min-width: auto;
     max-width: 82px;
+    min-height: auto;
     max-height: 46px;
     filter: brightness(150%);
+    margin: 2% 0;
 }
 .navigation_item {
     list-style: none;
@@ -410,7 +433,8 @@ a {
         text-align: center;
     }
     .watsap_block {
-        display: none;
+        width: 60%;
+        margin: 0 0 4% 0;
     }
     .name {
         margin: 0;
@@ -441,9 +465,11 @@ a {
         margin: 0;
     }
     .whatsapp_button {
-        min-width: 90%;
+        min-width: 74%;
     }
     .contacts_list {
-        min-width: 100%;
+        font-size: 18px;
+        min-width: 90%;
+        margin-bottom: 4%;
     }
 }
