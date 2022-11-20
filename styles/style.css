@@ -25,6 +25,13 @@ html {
     padding: 0;
     min-width: 100%;
 }
+.body_hide {
+    opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
 .page_block {
     font-family: "Gotham Pro", sans-serif;
     font-size: 16px;
