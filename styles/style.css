@@ -50,7 +50,7 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
-    color: #DAA520;
+    color: #ffd700;
     filter: saturate(130%);
     min-width: 320px;
     max-width: auto;
@@ -99,7 +99,7 @@ a {
     margin: 2%;
 }
 .link_text {
-    color: #DAA520;
+    color: #ffd700;
     filter: saturate(130%);
     text-decoration: underline;
 }
@@ -194,7 +194,7 @@ a {
     font-family: "Gotham Pro Regular", sans-serif;
     grid-column: 1/2;
     grid-row: 1/2;
-    color: #DAA520;
+    color: #ffd700;
     filter: saturate(130%);
     margin-top: 4%;
 }
@@ -290,7 +290,7 @@ a {
     padding-bottom: 5%;
 }
 .me_heading {
-    color: #DAA520;
+    color: #ffd700;
     filter: saturate(130%);
     margin-top: 0;
 }
@@ -312,7 +312,7 @@ a {
 .contacts_heading {
     font-family: "PT Sans", sans-serif;
     font-size: 26px;
-    color: #DAA520;
+    color: #ffd700;
     filter: saturate(130%);
 }
 .box_contacts {
@@ -399,8 +399,8 @@ a {
         padding: 5%;
     }
     .foto_mobile_evgen {
-        width: 40%;
-        border: 3px solid #efc900;
+        width: 65%;
+        border: 3px solid #ffd700;
         border-radius: 50%;
         margin: 0;
         padding: 0;
