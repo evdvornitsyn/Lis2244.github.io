@@ -99,9 +99,10 @@ a {
     margin: 2%;
 }
 .link_text {
-    color: #ffd700;
+    color: #000000;
     filter: saturate(130%);
     text-decoration: underline;
+    font-style: italic;
 }
 .watsap_block {
     font-family: "PT Sans", sans-serif;
