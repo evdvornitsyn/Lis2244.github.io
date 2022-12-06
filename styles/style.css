@@ -367,25 +367,7 @@ a {
     width: 100%;
     display: none;
 }
-.form {
-    grid-column: 1/6;
-    grid-row: 8/9;
-}
-.form_box {
-    margin: 0 auto;
-    width: 50%;
-}
-.form_item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.submit {
-    width: 20%;
-}
-.item_input {
-    margin: 10px;
-}
+
 @media (min-width: 600px) {
     .logo_block {
         width: 100%;
@@ -418,7 +400,7 @@ a {
     }
     .foto_mobile_evgen {
         width: 40%;
-        border: 5px solid #DAA520;
+        border: 3px solid #efc900;
         border-radius: 50%;
         margin: 0;
         padding: 0;
