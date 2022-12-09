@@ -1,18 +1,30 @@
 @font-face {
     font-family: "PT Sans";
-    src: url(../fonts/PTSans-Regular.woff) format("woff");
+    src: url(fonts/PTSans-Regular.woff) format("woff");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Gotham Pro";
-    src: url(../fonts/gothampro_black.woff2) format("woff2");
+    src: url(fonts/gothampro_black.woff2) format("woff2");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Gotham Pro Regular";
-    src: url(../fonts/gothampro.woff2) format("woff2");
+    src: url(fonts/gothampro.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Yomogi Regular";
+    src: url(fonts/Yomogi-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Nanum Gothic Coding";
+    src: url(/fonts/NanumGothicCoding-Regular.woff2) format("woff2");
     font-weight: 400;
     font-style: normal;
 }
@@ -20,7 +32,7 @@ html {
     scroll-behavior: smooth;
 }
 .page {
-    background-color: #2F3232;
+    background-color: #14151D;
     margin: 0;
     padding: 0;
     min-width: 100%;
@@ -37,7 +49,7 @@ html {
     font-size: 16px;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: min-content auto auto min-content min-content min-content auto auto auto;
+    grid-template-rows: min-content auto auto min-content min-content min-content auto auto;
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -50,7 +62,7 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
-    color: #ffd700;
+    color: #FFFFFF;
     filter: saturate(130%);
     min-width: 320px;
     max-width: auto;
@@ -65,12 +77,16 @@ header {
     padding: 0;
 }
 .name_text {
-    font-size: 28px;
+    font-family: "Nanum Gothic Coding", sans-serif;
+    line-height: 30px;
+    font-size: 25px;
     margin-top: 20px;
     margin-bottom: 0;
 }
 .name_text_two {
-    font-family: "Gotham Pro Regular";
+    font-family: "Gotham Pro Regular", sans-serif;
+    font-weight: 400;
+    Letter-spacing: 2px;
     font-size: 16px;
     margin-top: 10px;
 }
@@ -81,6 +97,7 @@ header {
 }
 .navigation_list {
     font-family: "Gotham Pro Regular", sans-serif;
+    font-weight: 400;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -94,7 +111,7 @@ a {
 }
 .dop_span {
     font-family: "PT Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     color: #000000;
     margin: 2%;
 }
@@ -103,12 +120,13 @@ a {
     filter: saturate(130%);
     text-decoration: underline;
     font-style: italic;
+    font-size: 17px;
 }
 .watsap_block {
     font-family: "PT Sans", sans-serif;
-    font-size: 22px;
-    background-color: #43d854;
-    border: 3px solid #109754;
+    font-size: 20px;
+    background-color: #4FD1FA;
+    border: 2px solid #000000;
     border-radius: 12px;
     padding: 0;
     width: 18%;
@@ -193,9 +211,10 @@ a {
 }
 .information_heading {
     font-family: "Gotham Pro Regular", sans-serif;
+    font-weight: 400;
     grid-column: 1/2;
     grid-row: 1/2;
-    color: #ffd700;
+    color: #FFFFFF;
     filter: saturate(130%);
     margin-top: 4%;
 }
@@ -221,7 +240,7 @@ a {
     padding: 0;
     width: 70%;
     background-color: #4FD1FA;
-    filter: saturate(120%);
+    filter: saturate(100%);
 }
 .border_box_two {
     border: 4px solid #000000;
@@ -242,16 +261,19 @@ a {
     filter: saturate(120%);
 }
 .oclock_text {
+    font-weight: 700;
     color: #000000;
     font-size: 20px;
     margin-top: 5px;
 }
 .many_text {
+    font-weight: 700;
     color: #000000;
     font-size: 20px;
     margin-top: 5px;
 }
 .serdce_text {
+    font-weight: 700;
     color: #000000;
     font-size: 20px;
     margin-top: 5px;
@@ -291,7 +313,7 @@ a {
     padding-bottom: 5%;
 }
 .me_heading {
-    color: #ffd700;
+    color: #FFFFFF;
     filter: saturate(130%);
     margin-top: 0;
 }
@@ -313,7 +335,7 @@ a {
 .contacts_heading {
     font-family: "PT Sans", sans-serif;
     font-size: 26px;
-    color: #ffd700;
+    color: #FFFFFF;
     filter: saturate(130%);
 }
 .box_contacts {
@@ -362,11 +384,6 @@ a {
     align-items: center;
     height: 100%;
     width: 100%;
-}
-
-.maps_ssf {
-    width: 100%;
-    display: none;
 }
 
 
@@ -459,6 +476,7 @@ a {
         text-align: center;
     }
     .watsap_block {
+        font-size: 16px;
         width: 60%;
         margin: 0 0 4% 0;
     }
