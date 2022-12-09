@@ -77,9 +77,10 @@ header {
     padding: 0;
 }
 .name_text {
-    font-family: "Nanum Gothic Coding", sans-serif;
+    font-family: "Gotham Pro Regular", sans-serif;
+    font-weight: 400;
     line-height: 30px;
-    font-size: 25px;
+    font-size: 27px;
     margin-top: 20px;
     margin-bottom: 0;
 }
