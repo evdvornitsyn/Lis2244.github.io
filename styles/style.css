@@ -36,6 +36,7 @@ html {
     margin: 0;
     padding: 0;
     min-width: 100%;
+    position: absolute;
 }
 .body_hide {
     opacity: 0;
