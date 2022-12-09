@@ -525,6 +525,7 @@ a {
     }
     .job {
         margin-top: 70px;
+        margin-bottom: 300px;
     }
     .whatsapp_button {
         min-width: 74%;
@@ -536,7 +537,6 @@ a {
     }
     .main_contacts {
         margin-bottom: 200px;
-        padding-top: 300px;
     }
 
 }
