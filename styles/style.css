@@ -368,18 +368,7 @@ a {
     width: 100%;
     display: none;
 }
-.video {
-    margin-top: 350px;
-    grid-column: 1/6;
-    grid-row: 9/10;
-    text-align: center;
-}
-.link_read {
-    font-family: "Gotham Pro Regular", sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    color: red;
-}
+
 
 @media (min-width: 600px) {
     .logo_block {
@@ -505,10 +494,6 @@ a {
         font-size: 18px;
         min-width: 90%;
         margin-bottom: 4%;
-    }
-    .my_vidosik {
-        min-width: auto;
-        max-width: 400px;
     }
 
 }
