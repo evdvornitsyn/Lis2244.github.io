@@ -127,8 +127,7 @@ a {
 .watsap_block {
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
-    background-color: #766ec5;
-    filter: saturate(90%);
+    background-color: #edecec;
     border: 2px solid #000000;
     border-radius: 12px;
     padding: 0;
