@@ -79,6 +79,26 @@ header {
 .name_foto {
     display: none;
 }
+.logo_deal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.key_picture {
+    width: 90px;
+    margin: 20px 0 20px 10px;
+}
+.handsnake {
+    width: 90px;
+}
+.comission {
+    margin-top: 0;
+}
 .name {
     text-align: center;
     margin-left: 5%;
@@ -450,7 +470,7 @@ a {
         width: 65%;
         border: 3px solid #2221213f;
         border-radius: 50%;
-        margin: 0;
+        margin-top: 20px;
         padding: 0;
     }
     .name {
