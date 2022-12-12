@@ -81,23 +81,14 @@ header {
 }
 .logo_deal {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     text-align: center;
     margin: 0;
     padding: 0;
-}
-.key_picture {
-    width: 90px;
-    margin: 20px 0 20px 10px;
-}
-.handsnake {
-    width: 90px;
-}
-.comission {
-    margin-top: 0;
+
 }
 .name {
     text-align: center;
@@ -113,7 +104,7 @@ header {
     margin-bottom: 0;
 }
 .name_text_two {
-    font-family: "Gotham Pro Regular", sans-serif;
+    font-family: "Roboto Condensed-Regular", sans-serif;
     font-weight: 400;
     Letter-spacing: 2px;
     font-size: 16px;
@@ -463,15 +454,22 @@ a {
     .name_foto {
         display: block;
         text-align: center;
-        background-color: #d9d9d952;
+        background-image: url(/images/serebro_fon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         padding: 5%;
     }
     .foto_mobile_evgen {
         width: 65%;
-        border: 3px solid #2221213f;
+        border: 2px solid #3b383870;
         border-radius: 50%;
-        margin-top: 20px;
+        margin: 0;
         padding: 0;
+    }
+    .deal_text {
+        margin-top: 0;
+        color: #edecec;
+        font-size: 16px;
     }
     .name {
         order: -1;
