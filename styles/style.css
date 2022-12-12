@@ -242,31 +242,33 @@ a {
     margin-bottom: 80px;
 }
 .border_box_one {
-    border: 4px solid #000000;
-    border-radius: 22px;
     margin: 20px auto;
     padding: 0;
     width: 70%;
-    background-color: #cac8c7;
-
+    height: 50%;
+    position: relative;
 }
 .border_box_two {
-    border: 4px solid #000000;
-    border-radius: 22px;
     margin: 20px auto;
     padding: 0;
     width: 70%;
-    background-color: #cac8c7;
-
+    height: 50%;
+    position: relative;
 }
 .border_box_free {
-    border: 4px solid #000000;
-    border-radius: 22px;
     margin: 20px auto;
     padding: 0;
     width: 70%;
-    background-color: #cac8c7;
-
+    height: 50%;
+    position: relative;
+}
+.background_gold {
+    width: 100%;
+    min-height: auto;
+    max-height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
 }
 .oclock_text {
     font-weight: 700;
@@ -523,7 +525,7 @@ a {
         padding-top: 50px;
     }
     .job {
-        margin-top: 70px;
+        margin-top: 200px;
         margin-bottom: 300px;
     }
     .whatsapp_button {
@@ -536,6 +538,24 @@ a {
     }
     .main_contacts {
         margin-bottom: 200px;
+    }
+    .border_box_one {
+        margin: 20px auto;
+        padding: 0;
+        width: 70%;
+        height: 140px;
+    }
+    .border_box_two {
+        margin: 20px auto;
+        padding: 0;
+        width: 70%;
+        height: 140px;
+    }
+    .border_box_free {
+        margin: 20px auto;
+        padding: 0;
+        width: 70%;
+        height: 140px;
     }
 
 }
