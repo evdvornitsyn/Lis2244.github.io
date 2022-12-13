@@ -136,7 +136,7 @@ header {
 }
 .navigation_item {
     width: 30%;
-    height: 100%;
+    height: 40px;
     list-style: none;
     padding: auto auto auto auto;
     margin: 0;
