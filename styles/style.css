@@ -135,19 +135,30 @@ header {
     margin: 20px;
 }
 .navigation_item {
-    width: 40%;
+    width: 30%;
     height: 100%;
     list-style: none;
-    padding: 0;
+    padding: auto auto auto auto;
     margin: 0;
 }
-.navigation_item_fon {
+.item_fon {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.images_gold_fon {
+    position: absolute;
     width: 100%;
     height: 100%;
-    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 22px;
 }
 a {
-    color: #edecec;
+    color: #000000;
     text-decoration: none;
 }
 .dop_span {
@@ -558,7 +569,7 @@ a {
         margin-top: 5px;
         margin-bottom: 5px;
         width: 100%;
-        height: 50px;
+        height: 40px;
         text-align: center;
     }
     .grid {
