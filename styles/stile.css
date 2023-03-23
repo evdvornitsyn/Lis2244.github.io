@@ -34,7 +34,7 @@ html {
 .in_page {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: auto auto auto;
     min-width: 1200px;
     max-width: 1250px;
     background-color: #FDFEFE;
@@ -639,7 +639,7 @@ textarea:-moz-placeholder {
     .in_page {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: auto auto auto;
         min-width: 100%;
         background-color: #FDFEFE;
         margin: 0 auto;
@@ -654,7 +654,7 @@ textarea:-moz-placeholder {
     .header_grid {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: auto auto auto;
     }
     .heading_box {
         grid-column: 1/3;
