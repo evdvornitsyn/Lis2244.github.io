@@ -656,6 +656,17 @@ textarea:-moz-placeholder {
         grid-template-columns: 50% 50%;
         grid-template-rows: repeat(3, auto);
     }
+    .heading_box {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .svg_home {
+        grid-column: 1/3;
+        grid-row: 2/3;
+        margin: 0 auto;
+    }
     .navigation {
         font-family: "Inter_Regular", sans-serif;
         font-weight: 400;
@@ -680,12 +691,6 @@ textarea:-moz-placeholder {
     .item_centr {
         margin: 10px 0;
     }
-    .heading_box {
-        grid-column: 1/3;
-        grid-row: 1/2;
-        text-align: center;
-        margin-top: 30px;
-    }
     h1 {
         font-family: "Inter_Medium", sans-serif;
         font-weight: 500;
@@ -698,11 +703,6 @@ textarea:-moz-placeholder {
     }
     .heading_text {
         display: none;
-    }
-    .svg_home {
-        grid-column: 1/3;
-        grid-row: 2/3;
-        margin: 0 auto;
     }
     .gallary {
         grid-column: 1/3;
