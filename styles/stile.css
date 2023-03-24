@@ -699,6 +699,11 @@ textarea:-moz-placeholder {
                 align-items: center;
         font-size: 18px;
         margin: 30px auto;
+        width: 100%;
+    }
+    .navigation_box {
+        width: 100%;
+        text-align: center;
     }
     .navigation_list {
         display: -webkit-box;
@@ -716,6 +721,13 @@ textarea:-moz-placeholder {
                 align-items: center;
         list-style: none;
         padding: 0;
+        width: 100%;
+    }
+    .navigation_item {
+        width: 100%;
+    }
+    .navigation_link {
+        width: 100%;
     }
     .item_centr {
         margin: 10px 0;
@@ -934,7 +946,7 @@ textarea:-moz-placeholder {
         background-color: #FDFEFE;
         border: 1px solid #090DC4;
         border-radius: 10px;
-        margin: 7px;
+        margin: 10px;
         box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5)
     }
     .products_button {
