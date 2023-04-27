@@ -17,7 +17,7 @@
 
 
 
-     if (mail("admin@evgenydvornitsyn.online", 
+     if (mail("admin@kosherovo.ru", 
                  "Новое письмо с сайта",
                  "Имя отправителя: ".$name."\n".
                  "Сообщение: ".$message."\n".

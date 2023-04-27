@@ -22,6 +22,12 @@
     font-weight: 600;
     font-style: normal;
 }
+@font-face {
+    font-family: "RussoOne-Regular";
+    src: url(/fonts/RussoOne-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -50,7 +56,7 @@ html {
     grid-column: 1/3;
     grid-row: 1/2;
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
 .header_grid {
     display: grid;
@@ -68,11 +74,26 @@ html {
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
+    height: 60px;
 }
 
 .link_navigation {
     text-decoration: none;
     color: #090DC4;
+    transition-duration: .7s;
+    transition-property: font-size;
+}
+.link_navigation:hover {
+    border-bottom: 2px solid #090DC4;
+    font-size: 20px;
+}
+.link_navigation:focus {
+    border-bottom: 2px solid #090DC4;
+    font-size: 20px;
+}
+.link_navigation:active {
+    border-bottom: 2px solid #090DC4;
+    font-size: 20px;
 }
 .navigation_list {
     display: flex;
@@ -83,6 +104,27 @@ html {
 .navigation_link {
     text-decoration: none;
     color: #090DC4;
+    transition-duration: .7s;
+    transition-property: font-size;
+}
+.navigation_link:hover {
+    border-bottom: 2px solid #090DC4;
+    font-size: 20px;
+}
+.navigation_link:focus {
+    border-bottom: 2px solid #090DC4;
+    font-size: 20px;
+}
+.navigation_link:active {
+    border-bottom: 2px solid #090DC4;
+    font-size: 20px;
+}
+.item_left {
+    margin-right: 40px;
+}
+.item_left_link {
+    font-weight: 600;
+    color: #FF4D00;
 }
 .item_centr {
     margin: 0 40px;
@@ -129,6 +171,181 @@ h1 {
     margin: 5% auto;
     width: 100%;
 }
+.window_left {
+    animation: wind_left 5s linear infinite;
+}
+@keyframes wind_left {
+    0% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    15% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    20% {
+        fill: #FFD700;
+        fill-opacity: 1;
+    }
+    40% {
+        fill: #FFD700;
+        fill-opacity: 1;
+    }
+    45% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    100% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+}
+.window_top {
+    animation: wind_top 5s linear infinite;
+}
+@keyframes wind_top {
+    0% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    35% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    40% {
+        fill: #FFD700;
+        fill-opacity: 1;
+    }
+    60% {
+        fill: #FFD700;
+        fill-opacity: 1;
+    }
+    65% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    100% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+}
+.window_right {
+    animation: wind_right 5s linear infinite;
+}
+@keyframes wind_right {
+    0% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    45% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    50% {
+        fill: #FFD700;
+        fill-opacity: 1;
+    }
+    80% {
+        fill: #FFD700;
+        fill-opacity: 1;
+    }
+    85% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    100% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+}
+.roof_left {
+    animation: roof_left 5s linear infinite;
+}
+@keyframes roof_left {
+    0% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    15% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    20% {
+        fill: #090DC4;
+        fill-opacity: 1;
+    }
+    40% {
+        fill: #090DC4;
+        fill-opacity: 1;
+    }
+    45% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    100% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+}
+.roof_top,
+.flue {
+    animation: roof_top 5s linear infinite;
+}
+@keyframes roof_top {
+    0% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    35% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    40% {
+        fill: #090DC4;
+        fill-opacity: 1;
+    }
+    60% {
+        fill: #090DC4;
+        fill-opacity: 1;
+    }
+    65% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    100% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+}
+.roof_right {
+    animation: roof_right 5s linear infinite;
+}
+@keyframes roof_right {
+    0% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    45% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    50% {
+        fill: #090DC4;
+        fill-opacity: 1;
+    }
+    80% {
+        fill: #090DC4;
+        fill-opacity: 1;
+    }
+    85% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+    100% {
+        fill: #090DC4;
+        fill-opacity: .3;
+    }
+}
 .information_page {
     grid-column: 1/3;
     grid-row: 2/3;
@@ -138,7 +355,7 @@ h1 {
 .page_grid {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
 }
 .gallary {
     grid-column: 1/3;
@@ -148,96 +365,42 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
-
-/*Добавляю слайдер*/
-.slider {
-    position: relative;
-    width: 60%;
-    margin: 20px 0;
-    /* Чтобы во время перетаскивания слайда ничего не выделить внутри него */
-    user-select: none;
-    /* Чтобы запретить скролл страницы, если мы начали двигать слайдер по оси X */
-    touch-action: pan-y;
-}
-  
-  /* Если где-то внутри слайдера будут изображения,
-  то нужно задать им pointer-events: none,
-  чтобы они не перетаскивались мышью */
-  
-.slider img {
-    pointer-events: none;
-}
-  
-.slider-list {
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-    border-radius: 24px;
-}
-  
-.slider-list.grab {
-    cursor: grab;
-}
-  
-.slider-list.grabbing{
-    cursor: grabbing;
-}
-  
-  .slider-track {
-    display: flex;
-}
-  
-.slide {
-    width: 100%;
-    height: 400px;
-    /* Чтобы слайды не сжимались */
-    flex-shrink: 0;
-    /* Увеличиваем и центрируем цифру внутри слайда */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 auto;
-}
-.slide_img {
-    width: 100%;
+#image_carousel {
+    max-width: 600px;
     height: 100%;
 }
-  
-.slider-arrows {
-    position: absolute;
-    top: 43%;
+.splide__track {
+    border-radius: 24px;
+}
+
+.fair_splide_track {
+    border-radius: 18px;
+}
+.splide__progress {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 80%;
+}
+
+.pagination_hiden {
+    visibility: hidden;
+}
+.arrow_hiden {
+    visibility: hidden;
+}
+.splide__slide img {
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    height: auto;
 }
-  
-.next,
-.prev {
-    background: none;
-    border: none;
-    margin: 0 20px;
-    font-size: 30px;
-    cursor: pointer;
-    color: #090DC4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.slide_faire img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
-  
-.next.disabled,
-.prev.disabled {
-    opacity: .25;
-    pointer-events: none;
-}
-.arrow_left {
-    height: 43px;
-}
-.arrow_right {
-    height: 43px;
-    transform: rotate(180deg);
+.border_radius_img {
+    border-radius: 18px;
 }
 .information_link {
     background-color: #DFEDF3;
@@ -273,6 +436,16 @@ h1 {
     height: 90px;
     border-bottom: 1px solid rgba(9, 13, 196, 0.1);
     color: #090DC4; 
+    transition: .7s;
+}
+.information_link_item:hover {
+    transform: scale(1.1);
+}
+.information_link_item:focus {
+    transform: scale(1.1);
+}
+.information_link_item:active {
+    transform: scale(1.1);
 }
 .link_item_foor {
     border: none;
@@ -325,10 +498,9 @@ h1 {
 .products_box {
     width: 80%;
     background-color: #FDFEFE;
-    border: 1px solid #090DC4;
     border-radius: 10px;
     margin: 7px;
-    box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.5)
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5)
 }
 .products_button {
     width: 100%;
@@ -412,6 +584,20 @@ h1 {
     transition: 0.9s;
     overflow: hidden;
 }
+.products_item_seven {
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    transition: 0.9s;
+    overflow: hidden;
+}
+.products_item_eight {
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    transition: 0.9s;
+    overflow: hidden;
+}
 .products_hover {
     max-height: 1000px;
     padding: 0;
@@ -442,9 +628,73 @@ h1 {
     pointer-events: none;
     cursor: default;
 }
-.village_blog {
+.fair {
+    font-family: "Inter_Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #090DC4;
     grid-column: 1/3;
     grid-row: 3/4;
+    text-align: center;
+}
+.fair_main_heading {
+    font-family: "Inter_Regular", sans-serif;
+    font-weight: 400;
+}
+.fair_heading {
+    font-family: "RussoOne-Regular", sans-serif;
+    font-weight: 400;
+}
+.fair_heading_item {
+    font-family: "Inter_Bold", sans-serif;
+    font-weight: 700;
+}
+.fair_heading_green {
+    color: #64AF28;
+}
+.fair_box {
+    width: 100%;
+    height: auto;
+}
+.fair_item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.fair_item_text {
+    font-family: "RussoOne-Regular", sans-serif;
+    font-weight: 400;
+    margin: 10px auto;
+}
+.fair_item_link {
+    font-family: "Inter_Medium", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #FDFEFE;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 22px;
+    background-color: #090DC4;
+    color: #FDFEFE;
+    box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.5);
+    transition: .7s;
+}
+.fair_item_link:hover {
+    transform: scale(1.1);
+}
+
+.village_blog {
+    grid-column: 1/3;
+    grid-row: 4/5;
     background-color: #DFEDF3;
     border-radius: 24px;
     margin: 50px auto;
@@ -465,6 +715,12 @@ h1 {
     font-weight: 500;
     font-size: 20px;
     line-height: 32px;
+    color: #090DC4;
+}
+.village_item {
+    font-family: "Inter_Medium", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     color: #090DC4;
 }
 .footer_contacts {
@@ -508,6 +764,7 @@ h1 {
     align-items: center;
     margin: 10px;
     text-align: center;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .one_box {
     grid-column: 1/2;
@@ -617,6 +874,7 @@ textarea:-moz-placeholder {
     margin: auto auto;
     width: 50%;
     border: 1px solid #090DC4;
+    border-radius: 10px;
     background-color: #090DC4;
     color: #FDFEFE;
     height: 50px;
@@ -634,6 +892,15 @@ textarea:-moz-placeholder {
     grid-column: 1/2;
     grid-row: 2/3;
     margin: 5px auto 20px auto;
+}
+.link_document {
+    font-family: "Inter_Regular", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #090DC4;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-bottom: 20px;
 }
 @media (max-width: 600px) {
     .page {
@@ -698,8 +965,9 @@ textarea:-moz-placeholder {
             -ms-flex-align: center;
                 align-items: center;
         font-size: 18px;
-        margin: 30px auto;
+        margin: 0 auto 30px auto;
         width: 100%;
+        height: auto;
     }
     .navigation_box {
         width: 100%;
@@ -732,6 +1000,9 @@ textarea:-moz-placeholder {
     .item_centr {
         margin: 10px 0;
     }
+    .item_left {
+        margin: 0 0 10px 0;
+    }
     h1 {
         font-family: "Inter_Medium", sans-serif;
         font-weight: 500;
@@ -744,6 +1015,11 @@ textarea:-moz-placeholder {
     }
     .heading_text {
         display: none;
+    }
+    .page_grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(4, auto);
     }
     .gallary {
         -ms-grid-column: 1;
@@ -775,94 +1051,31 @@ textarea:-moz-placeholder {
         margin: 30px auto;
     }
     /*Добавляю слайдер*/
-    .slider {
-        position: relative;
-        width: 100%;
-        margin: 0 0 50px 0;
-        /* Чтобы во время перетаскивания слайда ничего не выделить внутри него */
-        user-select: none;
-        /* Чтобы запретить скролл страницы, если мы начали двигать слайдер по оси X */
-        touch-action: pan-y;
+    .splide {
+        max-width: 600px;
+        height: 100%;
     }
-      
-      /* Если где-то внутри слайдера будут изображения,
-      то нужно задать им pointer-events: none,
-      чтобы они не перетаскивались мышью */
-      
-    .slider img {
-        pointer-events: none;
-    }
-      
-    .slider-list {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-        border: none;
+    .splide__track {
         border-radius: 0;
     }
-      
-    .slider-list.grab {
-        cursor: grab;
+    .splide__progress {
+        margin-top: 10px;
+        width: 100%;
     }
-      
-    .slider-list.grabbing{
-        cursor: grabbing;
+    .splide__toggle {
+        width: 30px;
+        height: 30px;
+        border: 0 solid black;
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 10%;
+    
     }
-      
-      .slider-track {
-        display: flex;
-    }
-      
-    .slide {
+    
+    .splide__slide img {
         width: 100%;
         height: auto;
-        /* Чтобы слайды не сжимались */
-        flex-shrink: 0;
-        /* Увеличиваем и центрируем цифру внутри слайда */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 auto;
-    }
-    .slide_img {
-        width: 100%;
-    }
-      
-    .slider-arrows {
-        position: absolute;
-        top: 43%;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-      
-    .next,
-    .prev {
-        background: none;
-        border: none;
-        margin: 0 20px;
-        font-size: 30px;
-        cursor: pointer;
-        color: #090DC4;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-      
-    .next.disabled,
-    .prev.disabled {
-        opacity: .25;
-        pointer-events: none;
-    }
-    .arrow_left {
-        height: 33px;
-    }
-    .arrow_right {
-        height: 33px;
-        transform: rotate(180deg);
     }
     /*Конец слайдера*/
     .information_link {
@@ -874,6 +1087,7 @@ textarea:-moz-placeholder {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 30px;
     }
     .information_link_item {
         text-decoration: none;
@@ -944,10 +1158,9 @@ textarea:-moz-placeholder {
     .products_box {
         width: 100%;
         background-color: #FDFEFE;
-        border: 1px solid #090DC4;
         border-radius: 10px;
         margin: 10px;
-        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5)
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5)
     }
     .products_button {
         width: 100%;
@@ -1002,6 +1215,12 @@ textarea:-moz-placeholder {
         line-height: 30px;
         color: #090DC4;
         text-align: start;
+    }
+    .village_item {
+        font-family: "Inter_Medium", sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        color: #090DC4;
     }
     .contacts {
         grid-column: 1/2;
@@ -1118,9 +1337,17 @@ textarea:-moz-placeholder {
         margin: 20px auto;
         width: 50%;
         border: 1px solid #090DC4;
+        border-radius: 10px;
         background-color: #090DC4;
         color: #FDFEFE;
         height: 30px;
         box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.5)
+    }
+    .link_document {
+        font-family: "Inter_Regular", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #090DC4;
+        margin-bottom: 20px;
     }
 }
