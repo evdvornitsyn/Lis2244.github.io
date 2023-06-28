@@ -346,6 +346,7 @@
     .interactive_svg {
         width: 100%;
         height: auto;
+        margin-top: 10px;
     }
     .heading_box {
         position: absolute;
@@ -355,10 +356,11 @@
         width: 100%;
       }
     .heading {
-        font-size: 14px;
+        font-size: 20px;
+        margin-top: -10px;
       }
     .heading_item {
-        font-size: 14px;
+        font-size: 15px;
         margin-top: 20px;
     }
     .box_text_visibility {
@@ -375,13 +377,13 @@
         }
     }
     .navigation_img {
-        width: 40px;
+        width: 50px;
     }
     .information_heading {
         color: #FFF7F7;
         font-size: 22px;
         margin-top: 20px;
         font-weight: 400;
-      }
+    }
 
   }
